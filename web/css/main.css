@@ -1,0 +1,201 @@
+
+/* reset the browser */
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image:url('../media/mooning.png');
+	background-repeat:repeat-y repeat-x;
+	background-color: #fafafa;
+	font-family: 'Special Elite', cursive;
+	
+}
+
+div.top{
+	margin-top: 15px;
+}
+
+div.contenttop
+{
+	margin: auto;
+	width: 800px;
+	height: 20px;
+	background: rgba(255,255,255,0.7);
+}
+
+div.headerwrapper
+{
+	/*margin: auto;*/
+	background-color: #99D9EA;
+	color: #3030F0;
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+
+div.header
+{
+	margin: auto;
+	width: 800px;
+	padding-top: 8px;
+	padding-left: 50px;
+	/*padding-right: 4px;*/
+	/*padding-bottom: 4px;*/
+	text-align: left;
+	
+}
+
+div.contentwrapper
+{
+	/*border-width:1px;
+	background-color: white;*/
+	width: 800px;
+	margin: auto;
+}
+
+div.content
+{
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background: rgba(255,255,255,0.7);
+}
+
+div.footerwrapper
+{
+	width: 800px;
+	margin: auto;
+}
+
+div.footer
+{
+	padding-top: 20px;
+	margin: auto;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+div.bigtext
+{
+	font-weight: 600;
+	font-size: 52px;
+}
+
+div.mediumtext
+{
+	font-weight: 300;
+	font-size: 23px;
+}
+
+div.buttonwrapper
+{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-borrom: 20px;
+	display: inline-block;
+}
+
+div.widebutton
+{
+	/*margin: auto;*/
+	border-radius: 15px;
+	background-color: #202020;
+	color: #F0F0F0;
+	font-size: 24px;
+	display: inline-block;
+	width: 260px;
+	padding-top: 18px;
+	padding-bottom: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+	cursor: pointer;
+}
+
+
+div.button
+{
+	/*margin: auto;*/
+	border-radius: 15px;
+	background-color: #99D9EA;
+	color: #3030F0;
+	font-size: 24px;
+	display: inline-block;
+	width: 160px;
+	padding-top: 18px;
+	padding-bottom: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+	cursor: pointer;
+}
+
+div.smallbutton
+{
+	/*margin: auto;*/
+	border-radius: 15px;
+	background-color: #99D9EA;
+	color: #3030F0;
+	font-size: 18px;
+	display: inline-block;
+	width: 130px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+
+div.description
+{
+	font-size: 18px;
+	font-family: 'Noto Sans', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+div.loginentry
+{
+	margin: auto;
+	font-size: 20px;
+	/*text-align: left;*/
+	padding: 20px 20px;
+}
+
+div.logout
+{
+	text-align: right;
+}
+
+input
+{
+    padding-left: 10px;
+	border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 8px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+	width: 300;
+}
+
+p
+{
+	padding: 8px 8px;
+	font-weight: 400;
+	text-align: left;
+}
